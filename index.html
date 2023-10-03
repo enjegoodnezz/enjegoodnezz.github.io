@@ -16,6 +16,8 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/vonge.css">
+
 
   <!-- 
     - google font link
@@ -99,24 +101,48 @@
       -->
 
       <section class="hero" id="home">
+      <!-- <section class="c-hero animate"> -->
+        <div class="row">
+          <div class="col col-12">
+            <div class="c-hero__inner">
+              <div class="c-hero__left">
+                <h1 class="h3 section-title">Hi there, I am <p class="h2">Enje Godinez.</p></h1>                
+                <div class="section-text">
+                  <p>I’m an Experienced software engineer with over a decade of experience in Oracle PeopleSoft systems,
+                    specializing in Campus Solutions for educational institutions. Recently completed a post-graduate
+                    program in
+                    Business Insights & Analytics from Humber College. Has a process-driven mindset.</p>
+                </div>
+                <div class="btn-group">
+                  <a class="btn btn-secondary" href="#contact">About Me</a>
+                  <a class="btn btn-primary" href="#projects">My Projects</a>
+                </div>
+              </div>
 
-        <figure class="hero-banner">
+              <div class="c-hero__right"> <!-- New 2 -- -->
+                <!-- <figure class="hero-banner"> -->
+                <figure class="c-hero__image">
 
-          <picture>
-            <source srcset="./assets/images/hero-banner.png" media="(min-width: 768px)">
-            <source srcset="./assets/images/hero-banner-md.png" media="(min-width: 500px)">
-            <!<img src="./assets/images/hero-banner-sm.png" alt="A man in a blue shirt with a happy expression"
-              class="w-100">>
-          </picture>
+                  <!-- <picture>
+                    <source srcset="./assets/images/sample-hero-banner.png" media="(min-width: 768px)">
+                    <source srcset="./assets/images/hero-banner-md.png" media="(min-width: 500px)">
+                    <img src="./assets/images/hero-banner-sm.png" alt="A man in a blue shirt with a happy expression"
+                      class="w-100">
+                  </picture> -->
 
-        </figure>
+                </figure>
 
-        <div class="hero-content">
+                <div class="hero-content">
 
-          <h2 class="h2 hero-title">Developer & Data Analyst</h2>
+                  <h2 class="h3 hero-title">Software Engineer</h2>
+                  <h3 class="h4 hero-subtitle">Exploring Data Science & Engineering</h3>
 
-          <a href="#contact" class="btn btn-primary">Get in touch</a>
+                  <!-- <a href="#contact" class="btn btn-primary">Get in touch</a> -->
 
+                </div>
+              </div> <!-- New 3 -- -->
+            </div>
+          </div>
         </div>
 
         <ul class="hero-social-list">
@@ -138,7 +164,7 @@
           </li>
 
           <li>
-            <a href="#" class="hero-social-link">
+            <a href="https://www.linkedin.com/in/enje-godinez/" target="_blank" class="hero-social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
 
               <div class="tooltip">Linkedin</div>
@@ -151,14 +177,47 @@
 
       </section>
 
-
-
-
-
       <!-- 
-        - #STATS
+        - #ABOUT
       -->
 
+      <!-- <section class="about" id="about">
+
+        <div class="about-content section-content">
+
+          <p class="section-subtitle">About me</p>
+
+          <h2 class="h3 section-title">Hi! I'm Enje.</h2>
+          <p class="section-text">
+            I’m an Experienced software engineer with over a decade of experience in Oracle PeopleSoft systems,
+            specializing in Campus Solutions for educational institutions. Recently completed a post-graduate
+            program in
+            Business Insights & Analytics from Humber College. Has a process-driven mindset.
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-secondary">More About Me</button>
+            <button class="btn btn-primary">My Projects</button>
+          </div>
+
+        </div>
+
+        <figure>
+          <picture>
+            <source srcset="./assets/images/sample-hero-banner.png" media="(min-width: 768px)">
+            <source srcset="./assets/images/hero-banner-md.png" media="(min-width: 500px)">
+            <img src="./assets/images/hero-banner-sm.png" alt="A man in a blue shirt with a happy expression"
+              class="w-100">
+          </picture>
+
+        </figure>
+
+      </section> -->
+
+      <!-- 
+        - #STATS/BADGES
+      -->
+<!-- 
       <section class="stats" id="stats">
         <ul class="stats-list">
 
@@ -211,51 +270,13 @@
           </li>
 
         </ul>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="about" id="about">
-
-        <figure class="about-banner">
-          <!<img src="./assets/images/about-banner.png" alt="A man in a alice blue shirt with a thinking expression"
-            class="w-100">>
-        </figure>
-
-        <div class="about-content section-content">
-
-          <p class="section-subtitle">About me</p>
-
-          <h2 class="h3 section-title">Need a Creative Product? I can Help You!</h2>
-
-          <p class="section-text">
-            Hi! I’m Enje Godinez, and I’m a Developer and a Data Analyst.
-          </p>
-
-          <div class="btn-group">
-            <button class="btn btn-secondary">Hire me</button>
-
-            <button class="btn btn-primary">Download cv / Linkedin</button>
-          </div>
-
-        </div>
-
-      </section>
-
-
-
+      </section> -->
 
 
       <!-- 
         - #SKILLS
       -->
-
+<!-- 
       <section class="skills" id="skills">
 
         <div class="skills-content section-content">
@@ -530,16 +551,12 @@
 
         </div>
 
-      </section>
-
-
-
-
+      </section> -->
 
       <!-- 
         - #PROJECTS
       -->
-
+<!-- 
       <section class="project" id="portfolio">
 
         <ul class="project-list">
@@ -697,7 +714,7 @@
 
           <p class="section-subtitle">Contact</p>
 
-          <h2 class="h3 section-title">I Freelance. Just Drop a Message</h2>
+          <h2 class="h3 section-title">Let's Connect.</h2>
 
           <p class="section-text">
             Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
@@ -730,9 +747,7 @@
               <div class="wrapper">
                 <h3 class="h4 contact-item-title">Phone:</h3>
 
-                <a href="tel:01234567789" class="contact-info">(01) 234 567 789</a>
-
-                <a href="tel:09765432200" class="contact-info">(09) 765 432 200</a>
+                <a href="tel:016372326509" class="contact-info">+1 (647) 232-6509</a>
               </div>
 
             </li>
@@ -748,7 +763,7 @@
 
                 <a href="mailto:enjegoodnezz@gmail.com" class="contact-info">enjegoodnezz@gmail.com</a>
 
-                <a href="mailto:enjegoodnezz@gmail.com" class="contact-info">enjegoodnezz@gmail.com</a>
+                <a href="mailto:enjegodinez@gmail.com" class="contact-info">enjegodinez@gmail.com</a>
               </div>
 
             </li>
@@ -773,7 +788,7 @@
                 </li>
 
                 <li>
-                  <a href="#" class="contact-social-link">
+                  <a href="https://www.linkedin.com/in/enje-godinez/" target="_blank"  class="contact-social-link">
                     <div class="tooltip">Linkedin</div>
 
                     <ion-icon name="logo-linkedin"></ion-icon>
@@ -817,7 +832,7 @@
 
             <div class="input-wrapper">
 
-              <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com"
+              <input type="email" name="email" id="email" required placeholder="e.g johndoe@email.com"
                 class="input-field">
 
               <ion-icon name="mail"></ion-icon>
@@ -862,7 +877,7 @@
       </section>
 
     </article>
-  </main>
+  </main> -->
 
 
 
@@ -882,7 +897,7 @@
       </p>
 
       <p class="copyright">
-        &copy; 2022 <a href="#">enjegoodnezz</a>. All rights reserved
+        &copy; 2023 <a href="#">enjegoodnezz</a>. All rights reserved
       </p>
 
     </div>
