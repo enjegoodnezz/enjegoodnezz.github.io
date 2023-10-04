@@ -808,6 +808,26 @@ main { overflow-x: hidden; }
   box-shadow: var(--shadow-1);
 }
 
+/* Kaggle - START */
+.hero-social-link .icon-svg {
+  width: 17.99px;
+  height: 17.99px;
+}
+
+.contact-social-link .icon-svg {
+  width: 50%;
+  height: 50%;
+}
+.icon-svg svg {
+  width: 100%;
+  height: 100%;
+}
+.icon-svg path {
+  fill: currentColor;
+  transform: scale(6, 6) translate(-45px, -30px);
+}
+/* Kaggle - END */
+
 .form-wrapper { margin-bottom: 25px; }
 
 .form-label {
@@ -1333,7 +1353,10 @@ textarea.input-field {
    * HERO
    */
 
-  .hero-social-list { left: -80px; }
+  .hero-social-list { 
+  left: -80px; 
+  /* background: var(--bg-secondary); */
+}
 
   .scroll-down { right: -80px; }
 
