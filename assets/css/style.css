@@ -1166,7 +1166,7 @@ textarea.input-field {
 
     position: absolute;
     top: 65%;
-    left: 17%;
+    left: 12.5%;
     filter: drop-shadow(2px 4px 5px var(--black));
     z-index: 1;
   }
