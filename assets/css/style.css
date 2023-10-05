@@ -824,7 +824,7 @@ main { overflow-x: hidden; }
 }
 .icon-svg path {
   fill: currentColor;
-  transform: scale(6, 6) translate(-45px, -30px);
+  /* transform: scale(6, 6) translate(-45px, -30px); */
 }
 /* Kaggle - END */
 
@@ -1165,8 +1165,9 @@ textarea.input-field {
     --color-primary: var(--white);
 
     position: absolute;
+    /* position: relative; */
     top: 65%;
-    left: 12.5%;
+    /* left: 12.5%; */
     filter: drop-shadow(2px 4px 5px var(--black));
     z-index: 1;
   }
